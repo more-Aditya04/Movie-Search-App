@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: black;
+    color: whitesmoke;
+
+}
+
+nav{
+    background:chocolate;
+    color: black;
+}
+ /* Nvbar-- style*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.search-bar input, button{
+    padding: 6px 12px;
+    border: none;
+    font-size: 16px;
+    transition: 2s;
+}
+
+.search-bar input {
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.search-bar button {
+    border-radius: 20px;
+    cursor: pointer;
+    background-color:rgb(245, 128, 151);
+    border: 2px solid black;
+  
+}
+
+.search-bar button:hover{
+    background-color: rgb(192, 223, 82);
+
+}
+
+/* Main-section */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-block: 38px;
+}
+
+main section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 73vh;
+}
+
+.movie-contain{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 2px 2px 18px red;
+    width: 80%;
+    border-radius: 6px;
+}
+
+.movie-poster img {
+    height: 450px;
+    margin-right: 30px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+.movie-info {
+    padding-inline: 15px;
+}
+
+.movie-info h2{
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0 12px 0;
+}
+
+.movie-info h2+p{
+    text-align: center;
+}
+.movie-info .movie-genre p{
+    background: black;
+    color: azure;
+    padding: 5px 14px;
+    margin-inline: 5px;
+    border: 2px solid red;
+    border-radius: 6px;
+    font-weight:700;
+    box-shadow: 2px 1px 13px rgb(245, 20, 245);
+}
+
+.movie-info .movie-genre{
+    display: flex;
+    justify-content: center;
+    margin-block: 5px;
+    overflow-x: auto;
+}
+.movie-info p{
+    font-size: 18px;
+    margin-block: 16px;
+    line-height: 24px;
+}
+
+.movie-contain.nobg{
+    background: none;
+    box-shadow: none;
+    color: white;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    background: chocolate;
+    color: black;
+    padding-block: 19px;
+    margin-top: 39px;
+    font-weight: bold;
+}
+
+
